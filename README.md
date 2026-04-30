@@ -1,3 +1,43 @@
+## Ideal Conferences
+
+| Conference | Full Name | Location | Conference Dates | Deadline Time Zone |
+|---|---|---|---|---|
+| ACCV 2026 | Asian Conference on Computer Vision | Osaka, Japan | December 14–18, 2026 | 23:59 GMT |
+| BMVC 2026 | British Machine Vision Conference | Lancaster, UK | November 23–26, 2026 | 23:59 AoE |
+
+## BMVC 2026 Timeline
+
+BMVC 2026 has an earlier submission deadline than ACCV 2026. The abstract deadline is in May, followed by the full paper and supplementary material deadline one week later.
+
+| Event | Date |
+|---|---|
+| Abstract Submission Deadline | May 22, 2026 |
+| Paper & Supplementary Material Submission Deadline | May 29, 2026 |
+| Review Period Begins | June 8, 2026 |
+| Reviews Due | June 22, 2026 |
+| Rebuttal Period | July 3–10, 2026 |
+| Author Notification | August 7, 2026 |
+| Camera-ready Deadline | August 28, 2026 |
+| Conference | November 23–26, 2026 |
+
+## ACCV 2026 Timeline
+
+ACCV 2026 has its main paper submission deadline in early July. The paper registration deadline is mandatory and comes before the full paper submission deadline.
+
+| Event | Date |
+|---|---|
+| Workshop / Tutorial Proposal Deadline | June 28, 2026 |
+| Paper Registration Deadline | July 3, 2026 |
+| Paper Submission Deadline | July 5, 2026 |
+| Supplementary Material Deadline | July 8, 2026 |
+| Demo Abstract Submission Deadline | August 6, 2026 |
+| Reviews Released to Authors | August 26, 2026 |
+| Rebuttal Deadline | September 2, 2026 |
+| Paper Decision Notification | September 20, 2026 |
+| Camera-ready Deadline | October 4, 2026 |
+| Workshops / Tutorials | December 14–15, 2026 |
+| Main Conference | December 16–18, 2026 |
+
 # YOLOv8 Industrial Defect Ablation
 
 This repository contains a modified YOLOv8n detector for NEU-DET style industrial surface defect detection.
