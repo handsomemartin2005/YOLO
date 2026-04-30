@@ -1,0 +1,38 @@
+# Runtime outputs
+/runs/
+
+# Large local datasets not required for this NEU-DET ablation package
+/GC10dataset/
+
+# Ultralytics examples/docs are not needed for the minimal ablation runner
+/docs/
+/examples/
+/docker/
+/inference/
+/root/
+
+# Dataset caches are regenerated on each machine
+datasets/**/*.cache
+
+# IDE and cache files
+/.idea/
+/__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Local command stubs accidentally created in the workspace
+/python
+/yolo
+
+# Extra weights and export artifacts
+/yolov8s.pt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.mlpackage
+
+# OS files
+Thumbs.db
+.DS_Store
