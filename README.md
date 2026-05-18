@@ -88,6 +88,38 @@ python train_full_innov.py
 
 It uses `ultralytics/cfg/models/v8/yolov8n-full-innov.yaml` and writes results under `runs/detect`.
 
+## GC10-DET Training
+
+GC10-DET is stored in YOLO format under:
+
+```text
+GC10dataset
+```
+
+The dataset config is portable:
+
+```text
+GC10dataset/data.yaml
+```
+
+Train the unchanged full innovation model locally:
+
+```bash
+python train_gc10_full_innov.py --epochs 300 --imgsz 640 --batch 16 --workers 8 --device 0
+```
+
+AutoDL run from the repository root:
+
+```bash
+bash scripts/autodl_train_gc10.sh
+```
+
+You can override defaults without editing the script:
+
+```bash
+EPOCHS=500 BATCH=32 DEVICE=0 RUNS=3 bash scripts/autodl_train_gc10.sh
+```
+
 ## Ablation Training
 
 The ablation controller is:
