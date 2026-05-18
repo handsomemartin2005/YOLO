@@ -1,8 +1,9 @@
 # Runtime outputs
 /runs/
 
-# Large local datasets not required for this NEU-DET ablation package
-/GC10dataset/
+# GC10-DET is versioned, but local image caches are regenerated per machine
+/GC10dataset/**/*.npy
+/GC10dataset/**/*.cache
 
 # Ultralytics examples/docs are not needed for the minimal ablation runner
 /docs/
